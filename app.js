@@ -2,10 +2,10 @@ import dotenv from "dotenv"
 import cors from "cors"
 import express from "express"
 import mongoose from "mongoose"
-import { test } from "./backend/controllers/zapatoscontrollers.js"
+import { test } from "./backend/controllers/zapatoscontrollers"
 
-dotenv.config()
-mongoose.connect(process.env.urldb)
+dotenv.connect()
+mongoose.connect(process.urldb)
 
 .then ( () =>{
     console.log("si jala we")
@@ -17,8 +17,8 @@ mongoose.connect(process.env.urldb)
 
 const app=express()
 app.use(cors())
-app.listen(4000, ()=>{
+app.listen(100, ()=>{
     console.log("si se escucha we")
 })
 
-test()
+test(holi)

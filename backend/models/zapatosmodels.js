@@ -6,4 +6,4 @@ const EsquemaZapatos = new Schema({
     talla:Number
 })
 
-export const ModeloZapatos = new model ("Tabla de zapatos", EsquemaZapatos)
+export const modelozapatos = new model ("Tabla de zapatos", esquemaZapatos)

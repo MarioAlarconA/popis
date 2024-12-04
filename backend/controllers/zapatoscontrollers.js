@@ -1,4 +1,4 @@
-import { ModeloZapatos } from "../models/zapatosmodels.js";
+import { ModeloZapatos } from "../models/zapatosmodels";
 
 ModeloZapatos.create({
     name:"adidas",
